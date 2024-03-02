@@ -37,6 +37,9 @@ shoutouts to [Robeth](https://github.com/RobethX) for his previous unlimited coo
 - Logging
     - enable console debug logging
 
+### Disclaimer:
+This mod has only been tested with 5-7 players, so the 32 player limit is UNCONFIRMED as of now.   
+The teams all appear to function correctly however, so I see no reason to believe it shouldn't work. 
 
 ### Known Issues:
  - All of the same issues reported [here](https://steamcommunity.com/sharedfiles/filedetails/?id=1151711689) will likely apply to this mod as well
