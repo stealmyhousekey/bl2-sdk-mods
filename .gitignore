@@ -1,0 +1,15 @@
+# ignore all pycache folders
+**/__pycache__/
+
+# ignore all settings.json files
+# temporarily disable this to allow for settings.json to be included/updated in the repo
+**/settings.json
+
+# ignore sanitysaver save files
+SanitySaver/Saves/
+
+# ignore modmenu favourites.json
+ModMenu/favourites.json
+
+# ignore textmodloader mod_info.json
+TextModLoader/mod_info.json
