@@ -1,0 +1,35 @@
+{
+    "defaults": {
+      "authors": "stelmo",
+      "source": "https://github.com/stealmyhousekey/bl2-sdk-mods",
+      "issues": "https://github.com/stealmyhousekey/bl2-sdk-mods/issues",
+      "supports": [
+        "BL2",
+        "TPS"
+      ],
+      "license": "MIT"
+    },
+    "mods": [
+        {
+            "name": "NoCap",
+            "description": [
+            "Extends team limits and functionality.\n",
+            "Allows up to 8 teams (32 players) by default."
+            ],
+            "tagline": "Adjust team and player limits",
+            "types": [
+            "Gameplay"
+            ],
+            "latest": "0.1.1",
+            "versions": {
+            "0.1.1": "https://github.com/stealmyhousekey/bl2-sdk-mods/raw/main/NoCap/NoCap.zip"
+            },
+            "supports": [
+            "BL2"
+            ],
+            "requirements": {
+            "UserFeedback": ">=1.5"
+            }
+        }
+    ]
+}
