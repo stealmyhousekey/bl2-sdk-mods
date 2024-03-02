@@ -3,6 +3,8 @@
 
 shoutouts to [Robeth](https://github.com/RobethX) for his previous unlimited coop mod and documentation
 
+#### Requires: [UserFeedback by apple1417](https://bl-sdk.github.io/mods/UserFeedback/)
+
 ### Recommended:
 - Download a copy of [Robeth's cooppatch.txt](https://github.com/RobethX/BL2-MP-Mods/blob/latest-csharp/CoopPatch/cooppatch.txt), and enable FIXES using OpenBLCMM (and any desired in the OPTIONS category)
 
