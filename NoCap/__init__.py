@@ -13,8 +13,8 @@ from Mods.NoCap.lxcbl2 import (get_pc, is_host, is_client, log, logc, logf, get_
 class NoCap(ModMenu.SDKMod):
     Name: str = "NoCap"
     Author: str = "stelmo"
-    Description: str = "uncaps lobby size and allows up to 8 teams (by default)\n\nshoutouts to robeth for his cooppatch and great documentation\n\n[fax, no printer]"
-    Version: str = "0.1.1"
+    Description: str = "uncaps lobby size for 5+ players, allowing for up to 8 teams (by default)\n\nshoutouts to robeth for his cooppatch and great documentation\n\n[fax, no printer]"
+    Version: str = "0.1.2"
     SupportedGames: ModMenu.Game = ModMenu.Game.BL2 | ModMenu.Game.TPS  # Either BL2 or TPS; bitwise OR'd together
     Types: ModMenu.ModTypes = ModMenu.ModTypes.Gameplay  # One of Utility, Content, Gameplay, Library; bitwise OR'd together
     SaveEnabledState: ModMenu.EnabledSaveType = ModMenu.EnabledSaveType.LoadOnMainMenu

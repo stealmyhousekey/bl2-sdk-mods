@@ -14,16 +14,18 @@ from Mods.ModMenu import (
 	ClientMethod,
 	ServerMethod
 )
-from Mods.Enums import ENetMode, EModifierType
+
+#! deprecated imports
+# from Mods.Enums import ENetMode, EModifierType
 
 def get_pc() -> unrealsdk.UObject:
 	return unrealsdk.GetEngine().GamePlayers[0].Actor
 
 def is_host():
-    return unrealsdk.GetEngine().GetCurrentWorldInfo().NetMode == ENetMode.NM_ListenServer
+    return unrealsdk.GetEngine().GetCurrentWorldInfo().NetMode == 2 #ENetMode.NM_ListenServer
 
 def is_client():
-	return unrealsdk.GetEngine().GetCurrentWorldInfo().NetMode == ENetMode.NM_Client
+	return unrealsdk.GetEngine().GetCurrentWorldInfo().NetMode == 3 #ENetMode.NM_Client
 
 def log(mod: SDKMod, *args: Any) -> None:
     if mod.EnableLogging.CurrentValue:
