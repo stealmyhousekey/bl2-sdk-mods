@@ -14,6 +14,7 @@ shoutouts to [Robeth](https://github.com/RobethX) for his previous unlimited coo
 
 
 ### Usage:
+##### All players must have the mod installed and working
 - HOST
     - Set desired number of teams (and any other misc options) at the main menu [Options > Mods > NoCap] 
     - Start the game SOLO
@@ -25,7 +26,6 @@ shoutouts to [Robeth](https://github.com/RobethX) for his previous unlimited coo
     - Join a team
         - NOTE: if Team 1 fills, the game will no longer be joinable
     - Play as normal
-
 
 ### Settings:
 - Number of Teams

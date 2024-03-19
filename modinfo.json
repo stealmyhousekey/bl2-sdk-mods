@@ -13,16 +13,16 @@
         {
             "name": "NoCap",
             "description": [
-            "Extends team limits and functionality.\n",
+            "Extends team limits and functionality for 5+ player lobbies.\n",
             "Allows up to 8 teams (32 players) by default."
             ],
-            "tagline": "Adjust team and player limits",
+            "tagline": "Increase lobby size for 5+ players",
             "types": [
             "Gameplay"
             ],
-            "latest": "0.1.1",
+            "latest": "0.1.2",
             "versions": {
-            "0.1.1": "https://github.com/stealmyhousekey/bl2-sdk-mods/raw/main/NoCap/NoCap.zip"
+            "0.1.2": "https://github.com/stealmyhousekey/bl2-sdk-mods/raw/main/NoCap/NoCap.zip"
             },
             "supports": [
             "BL2"
